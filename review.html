@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Reviews</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="final.css">
+<style>
+	form{font-size:22px;}
+	fieldset{border: 5px solid #EAD186;
+		 margin:10px;
+		margin-left:205px;
+}
+	img{margin-left:160px;}
+
+</style>
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+</head>
+<body>
+	<header>
+		<h1> CENSORSHIP IN NORTH KOREA </h1>
+	</header> 
+	<nav>
+		<ul>
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="about.html"> Overview </a></li>
+			<li><a href="mediatype.html"> Media Type</a>
+				<ul>
+					<li><a href="internet.html">Internet</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="tvandmovies.html">TV and Movies</a></li>
+				</ul>
+			</li>
+			<li><a href="currentevents.html">Interesting Videos</a></li>
+			<li><a href="review.html"> Review </a></li>
+			<li><a href="references.html">References</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2> Please leave a review </h2>
+		<img src="review_images.png" alt="Picture of an orange comment bubble with 4 out of 5 green stars. Yellow comment bubble with a thumbs up.
+			Green comment bubble with the word good. Teal comment bubble with the word love it." width="921" height="339">
+		<form>
+			<fieldset>
+				<legend> Personal information </legend> 
+				<label> Please enter your email:<input type="email" name="email" id="email"></label><br>
+				<label> First Name: <input type="text" name="fname" id="fname"></label><br>
+				<label> Last Name: <input type="text" name="lname" id="lname"></label>
+
+			</fieldset>
+			<fieldset>
+				<legend> Review Information </legend> 
+				<label>How did you find out about the website?<br>
+					<input type="radio" name="searchengine" id="searchengine" value="searchengine"> Search Engine <br>
+					<input type="radio" name="socialmedia" id="socialmedia" value="socialmedia"> Social Media <br>
+					<input type="radio" name="anotherperson" id="anotherperson" value="anotherperson"> Another Person<br>
+					<input type="radio" name="other" id="other" value="other"> Other <br>
+				</label>
+				<label> Why did you visit the site today?<br>
+					<input type= "text" name ="reason" id="reason" cols="100"><br>
+				</label>
+				<label> On a scale from 1 to 10. With 1 being not useful at all and to being very useful. 
+					How useful was the information you found on our site today? <br>
+					<input type="number" name="useful" id="useful" min="1" max="10"><br>
+				</label>
+				<label> 
+					Please leave any comments, suggestions, or questions in the box down below.<br>
+					<textarea name="suggestions" id="suggestions" cols="50" 
+					rows="30"> 
+					</textarea><br>
+				</label>
+			<input type="submit"> 
+			<input type="reset"> 
+					
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<small> Project by Deaira Carrington 2021 </small>
+	</footer>
+</body>
+</html>
